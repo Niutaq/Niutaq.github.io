@@ -11,8 +11,32 @@
 		<link rel="icon" href="g.png" type="image/png"  sizes="16x16"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style type="text/css"></style>
+
+        <h3 class ="mode"> Galeria obrazów z gór</h3>
+        
 
 	<style>
+    
+    #effect:hover {
+        height:auto;
+        width: auto;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        margin: 0 20px;
+        transform: 5s;
+        transform: scale(1.05);  
+    }
+
+
+
+
+    img {
+        z-index: 1;
+        margin: 2vh auto;
+    }
+
 
 	@font-face {  
     	font-family: Bogart;
@@ -38,45 +62,14 @@
         justify-content: center;
 		text-align:center;
 		font-size: 100px;
-		color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
 		text-shadow: 3px 3px #e0d644;
 	}
 	
 	body {
-		height: 5000px;
-		background: linear-gradient(#000000 40%, #eb8258 100% );
+		height: 6500px;
+		background: linear-gradient(#ffffff 10%, #eb8258 100% );
 	}	
-	
-	
-	div {
-		width: 1000px;
-		height: 225px;
-		position: relative;
-		animation-name: anim1;
-		animation-duration: 10s;
-	
-	}
-	
-	
-	@keyframes anim1 {
-		0% {background-color:#000000 ; left:0px; top:0px;}
-		25% {background-color:#000000; left:200px; top:0px;}
-		50% {background-color:#000000 ; left:-200px; top:0px;}
-		100% {background-color:#000000 ; left:0px; top:0px;}
-	}
-
-
-
-	a {
-  		background-color: #000000;
-  		transition: background-color .5s;
-	}
-
-	a:hover {
- 		background-color: rgb(204, 196, 85);
-	}
-	
-
 
 
 	#text {
@@ -96,27 +89,56 @@
 		border-radius: 100%;
 	}
     -->
-
-	<div></div>
-	<div></div>
-
 	
-	<h3 class ="mode"> Galeria obrazów z gór</h3>
+    <div id="effect"> 
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/wood.jpg" target="_blank" title="1">
+            <img src="wood.jpg" width="100" height="500" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>
+    </div>  
 
-	<a href="img/wood.jpg" target="_blank" title="1"></a>
-		<img src="wood.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
-    </a>    
+	<h3 class ="mode"> Krajobraz Górski i Okolica </h3>
 
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/okolica.jpg" target="_blank" title="2">
+	    	<img src="okolica.jpg" width="200" height="500" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>
+    </div>
 
-	<h4 class ="mode"> Okolica </h4>
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/zdj1.jpg" target="_blank" title="3">
+		    <img src="zdj1.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>    
+    </div>
+    
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/zdj2.jpg" target="_blank" title="4">
+		    <img src="zdj2.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a> 
+    </div>
 
-		<img src="krajobraz.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/zdj3.jpg" target="_blank" title="5">
+		    <img src="zdj3.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>    
+    </div>
 
-	<h5 class ="mode"> Krajobraz górski </h5>
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/zdj4.jpg" target="_blank" title="6">
+		    <img src="zdj4.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>    
+    </div>
 
-		<img src="okolica.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/zdj5.jpg" target="_blank" title="7">
+		    <img src="zdj5.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>  
+    </div>      
 
-
+    <div id="effect">
+        <a href="https://raw.githubusercontent.com/Niutaq/Niutaq.github.io/main/krajobraz.jpg" target="_blank" title="8">
+		    <img src="krajobraz.jpg" width="200" height="800" class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+        </a>    
+    </div>
 		</center>
 	</body>
 </html> 
